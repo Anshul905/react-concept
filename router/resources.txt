@@ -1,12 +1,17 @@
+https://www.w3schools.com/react/react_router.asp
+
 Link
 https://reactrouter.com/en/main/components/link
 
 NavLink
 https://reactrouter.com/en/main/components/nav-link
 
-
-
-https://www.w3schools.com/react/react_router.asp
-
 issues -
 after reloading - Home page is having active class , want to remove it 
+
+
+
+https://reactrouter.com/en/main/start/overview#nested-routes
+https://remix.run/_docs/routing
+issues - 
+url is changing but home page's content is showing after nested routing - solution is shared layout
