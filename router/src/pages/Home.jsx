@@ -1,27 +1,14 @@
 import React from 'react'
 
 import { NavLink } from 'react-router-dom'
+import Header from '../Component/Header'
 
 function Home() {
   return (
     <>
-    <header>
-      <a href="#"><b>Logo</b></a>
-      <nav>
-        <ul >
-          <li>
-            <NavLink to="/" > Home </NavLink> 
-          </li>
-          <li>
-            <NavLink to="/about"> About </NavLink> 
-          </li>
-          <li>
-            <NavLink to="/contact"> Contact </NavLink> 
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <section className='text-center font-bold text-3xl'>
+    <Header />
+    
+    <section className='text-center font-bold text-4xl mt-10'>
       <h1>Home Page</h1>
     </section>
     </>
