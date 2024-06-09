@@ -6,7 +6,7 @@ https://reactrouter.com/en/main/components/link
 NavLink
 https://reactrouter.com/en/main/components/nav-link
 
-issues -
+issues - ( no need to change )
 after reloading - Home page is having active class , want to remove it 
 
 
@@ -25,3 +25,6 @@ Create Route for home like below
 <Route index element={<Home />} />
 index - renders into their parents Outlet at their parents URL ( like as default child route )
 no path 
+
+
+https://reactrouter.com/en/main/start/concepts#navigate-function
