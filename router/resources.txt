@@ -1,0 +1,12 @@
+Link
+https://reactrouter.com/en/main/components/link
+
+NavLink
+https://reactrouter.com/en/main/components/nav-link
+
+
+
+https://www.w3schools.com/react/react_router.asp
+
+issues -
+after reloading - Home page is having active class , want to remove it 
