@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
+import MainHeader from './Component/MainHeader';
 
 function App() {
 
@@ -12,13 +13,15 @@ function App() {
     
       <BrowserRouter>
         <Routes>
-          <Route path='/'        element={<Home />}>   
-            <Route path='/about'   element={<About />}>   </Route>
-            <Route path='/contact' element={<Contact />}>   </Route>
-            <Route path='*' element={<Error />}>   </Route>
-          </Route>
+            <Route path='/'         element={<MainHeader />}>   
+                <Route index           element={<Home />} />   
+                <Route path='/about'   element={<About />} /> 
+                <Route path='/contact' element={<Contact />} />
+                <Route path='*'        element={<Error />}  />
+            </Route>
           </Routes>      
       </BrowserRouter>
+      
     </>
   )
 }

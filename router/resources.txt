@@ -17,3 +17,11 @@ issues -
 url is changing but home page's content is showing after nested routing - solution is shared layout
 
 by adding <Outlet > to home page --> home page + self page content is showing - solution is remove repeated thing from all other pages but what about home page's data now  
+
+Home page is having common things which will be shown in all the time but we also want its data to be shown 
+so we will create onbe component which will contain common data ( basically whatever was present there in the home component)
+and now home component will have its separate  data 
+Create Route for home like below 
+<Route index element={<Home />} />
+index - renders into their parents Outlet at their parents URL ( like as default child route )
+no path 

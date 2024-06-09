@@ -3,10 +3,13 @@ import { NavLink } from 'react-router-dom'
 
 function Header() {
   return (
-    <header>
+    <header className=' bg-slate-200 h-12 flex justify-around items-center'>
     <a href="#"><b>Logo</b></a>
-    <nav>
-      <ul >
+    <nav className='w-1/2'>
+      <ul 
+        className='flex justify-center gap-20
+        '
+        >
         <li>
           <NavLink to="/" > Home </NavLink> 
         </li>
