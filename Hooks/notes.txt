@@ -1,0 +1,14 @@
+console.log(useState);
+ƒ useState(initialState) {
+          var dispatcher = resolveDispatcher();
+          return dispatcher.useState(initialState);
+        }
+
+
+https://react.dev/learn/conditional-rendering
+
+
+changes 
+RegistrationForm.jsx 
+make the width of user details section more plus should be at the center of the page 
+( does not matter how small the input is i.e. initilaly for less character also , there should be something like min-width of bar )
