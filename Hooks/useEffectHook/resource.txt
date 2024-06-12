@@ -1,0 +1,14 @@
+https://randomuser.me/documentation#multiple
+
+
+
+
+random user
+https://randomuser.me/api/?results=50
+
+https://randomuser.me/documentation
+
+
+
+https://api.github.com/users
+
