@@ -5,12 +5,16 @@ import ChangeCourse from './components/useReducer/ChangeCourse'
 import Com1 from './components/useContext/propDrilling/ComProvider'
 import ComProvider from './components/useContext/better/ComProvider'
 import AuthProvider from './components/useContext/login/AuthProvider'
+import RandomUserAPI from './components/CustomHook/fetchExample/RandomUserAPI'
+import GithubAPI from './components/CustomHook/fetchExample/GithubAPI'
+import Jsonplaceholder from './components/CustomHook/fetchExample/Jsonplaceholder'
+import MultipleAPI from './components/CustomHook/fetchExample/MultipleAPI'
 
 function App() {
 
   return (
     <>
-        <div className="h-screen flex items-center justify-center ">
+        <div className="h-screen flex items-center justify-center gap-5">
 
             {/* ------------ useRef Hook- uncontrolled form - input ------------ */}
             {/* <Uncontrolled /> */}
@@ -22,7 +26,14 @@ function App() {
             {/* ------------ userContext Hook ------------ */}
             {/* <Com1 /> */}
             {/* < ComProvider /> */}
-            <AuthProvider/>
+            {/* <AuthProvider/> */}
+
+
+            {/* ------------ custom Hook ------------ */}
+            <GithubAPI />
+            {/* <RandomUserAPI /> */}
+            {/* <Jsonplaceholder/> */}
+            {/* < MultipleAPI /> */}
 
 
         </div>

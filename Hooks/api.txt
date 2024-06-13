@@ -1,0 +1,9 @@
+
+
+https://jsonplaceholder.typicode.com/todos
+
+https://api.github.com/users
+
+https://randomuser.me/api/?results=50
+
+
