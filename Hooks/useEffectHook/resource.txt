@@ -12,3 +12,8 @@ https://randomuser.me/documentation
 
 https://api.github.com/users
 
+
+https://react-icons.github.io/react-icons/
+https://react-icons.github.io/react-icons/search/#q=logo
+
+

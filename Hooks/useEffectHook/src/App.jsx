@@ -16,9 +16,10 @@ function App() {
             {/* <Basic /> */}
             {/* <Chat /> */}
             {/* <CleanUp /> */}
-
             {/* <GithubAPI /> */}
+
             <RandomUser/>
+
           </div>
       
       </div>
