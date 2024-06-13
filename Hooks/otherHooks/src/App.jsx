@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Uncontrolled from './components/useRef/Uncontrolled'
+import Counter from './components/useReducer/Counter'
+import ChangeCourse from './components/useReducer/ChangeCourse'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      {/* useRef - uncontrolled form - input */}
-      <Uncontrolled />
+        <div className="h-screen flex items-center justify-center ">
 
+            {/* useRef - uncontrolled form - input */}
+            {/* <Uncontrolled /> */}
 
+            {/* < Counter /> */}
+            < ChangeCourse />
+      
+
+        </div>
     </>
   )
 }
