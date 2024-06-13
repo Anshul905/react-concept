@@ -5,3 +5,7 @@ https://dev.to/ale3oula/navigating-reacts-controlled-vs-uncontrolled-components-
 https://adhithiravi.medium.com/what-is-the-usereducer-hook-6274af633541
 https://codesandbox.io/p/sandbox/reacts-hooks-examples-zqmzm?file=%2Fsrc%2FComponentUseReducer.js%3A19%2C7&from-embed=
 
+
+
+https://www.w3schools.com/react/react_usecontext.asp
+https://www.freecodecamp.org/news/react-hooks-useeffect-usestate-and-usecontext/
