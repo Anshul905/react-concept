@@ -24,6 +24,23 @@
 }
 
 
+
+input{
+  border-radius: 0.3rem;
+  outline: none;
+  background-color: bisque;
+  /* border: 2px solid black; */
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  margin-inline : 3rem;
+  margin-block: 0.8rem;
+  row-gap: 0.3rem;
+}
+
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

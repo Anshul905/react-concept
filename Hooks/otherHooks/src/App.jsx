@@ -9,6 +9,7 @@ import RandomUserAPI from './components/CustomHook/fetchExample/RandomUserAPI'
 import GithubAPI from './components/CustomHook/fetchExample/GithubAPI'
 import Jsonplaceholder from './components/CustomHook/fetchExample/Jsonplaceholder'
 import MultipleAPI from './components/CustomHook/fetchExample/MultipleAPI'
+import HeavyCalculation from './components/useMemo/HeavyCalculation'
 
 function App() {
 
@@ -30,10 +31,13 @@ function App() {
 
 
             {/* ------------ custom Hook ------------ */}
-            <GithubAPI />
+            {/* <GithubAPI /> */}
             {/* <RandomUserAPI /> */}
             {/* <Jsonplaceholder/> */}
             {/* < MultipleAPI /> */}
+
+
+          <HeavyCalculation />            
 
 
         </div>
