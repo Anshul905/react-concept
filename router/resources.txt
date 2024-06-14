@@ -31,3 +31,6 @@ https://reactrouter.com/en/main/start/concepts#navigate-function
 
 
 https://www.geeksforgeeks.org/react-router-hooks/
+
+https://www.npmjs.com/package/react-toastify
+https://fkhadra.github.io/react-toastify/introduction/
