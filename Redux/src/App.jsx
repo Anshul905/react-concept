@@ -1,15 +1,16 @@
 import './App.css'
 import { useSelector , useDispatch  } from 'react-redux' ;
-import {incNumber,decNumber} from "./actions/index"
+import {incNumber,decNumber, toDark, toLight, flipTheme} from "./actions/index"
 
 function App() {
   
   const myState = useSelector( (state) => state.changeTheNumber )
+  const mytheme = useSelector( (state) => state.themeChange )
   const dispatch = useDispatch() ;
 
   return (
     <>
-      <div className="main-container">
+      <div className="main-container" style={{ backgroundColor: mytheme }}>
 
         <div className="container ">
             <h1>React Redux - Increment & Decrement</h1>
@@ -22,6 +23,22 @@ function App() {
                   +
                 </button>
             </div>
+
+            <h1>React Redux - Increment & Decrement</h1>
+            <div className="buttons flex gap-10">
+              <button type="button"className='btn' onClick={ () => dispatch(toDark()) }>
+                  Dark Theme     
+              </button>
+              <button type="button"className='btn' onClick={ () => dispatch(toLight()) }>
+                  Light Theme     
+              </button>
+            </div>
+
+            <h1>React Redux - Increment & Decrement</h1>
+            <button type="button"className='btn' onClick={ () => dispatch(flipTheme()) }>
+                  change Color     
+              </button>
+
         </div>
 
 

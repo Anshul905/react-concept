@@ -9,3 +9,21 @@ export const decNumber = (num)=> {
         payload : num 
     }
 }
+
+export const toLight = ()=> {
+    return {
+        type : 'LIGHT'
+    }
+}
+
+export const toDark = ()=> {
+    return {
+        type : 'DARK'
+    }
+}
+
+export const flipTheme = ()=> {
+    return {
+        type : 'FLIP'
+    }
+}

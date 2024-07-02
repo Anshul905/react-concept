@@ -1,9 +1,11 @@
 import changeTheNumber from "./upDown";
+import themeChange from "./themeChange";
 
 import { combineReducers } from "redux" ;
 
 const rootReducer = combineReducers({
-    changeTheNumber
+    changeTheNumber,
+    themeChange
     // ,other reducer
 })
 
