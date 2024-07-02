@@ -4,7 +4,7 @@
 
 
 .main-container{
-  /* background-color: aqua; */
+  background-color: black;
 
   min-height: 100vh;
   display: flex;
@@ -37,4 +37,5 @@
 
 input{
   text-align: center;
+  outline: none;
 }
