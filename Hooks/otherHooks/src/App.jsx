@@ -37,7 +37,12 @@ function App() {
             {/* < MultipleAPI /> */}
 
 
-          <HeavyCalculation />            
+            {/* ------------ useMemo Hook------------ */}
+            {/* <HeavyCalculation />             */}
+
+
+            {/* ------------ useCallback Hook ------------ */}
+            sdfsdf
 
 
         </div>
